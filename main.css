@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .logo {
@@ -20,7 +21,9 @@
 }
 
 .nav{
+    padding-top: 0px;
     display: flex;
+    align-items: center;
 }
 
 .nav-item{
@@ -47,24 +50,28 @@
     color: #FFFFFF;
     padding: 10px 36px;
     border-radius: 10px;
+    font-weight: 50px;
+    height: 20px;
 }
+
+
 
 .header-downed-1{
     font-family: 'Maven Pro', sans-serif;
+    text-decoration: 0;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 30px;
-    color: #3C3C3B;
 }
 
 .header-downed-2 {
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
+    text-decoration: 0;
     font-size: 24px;
     font-weight: 600;
-    color: #3C3C3B;
 }
 
 .search-button {
@@ -76,6 +83,8 @@
     color: #FFFFFF;
     padding: 14px 28px;
     border-radius: 5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
 }
 
 .wr-txt-1{
@@ -107,8 +116,9 @@
     justify-content: center;
 }
 
+
 .card-1{
-    width: 100%;
+    width: 50%;
     background-color: #ffffff;
     margin-right: 100px;
 }
@@ -137,8 +147,9 @@
     justify-content: center;
 }
 
+
 .card-2{
-    width: 100%;
+    width: 50%;
     background-color: #ffffff;
     margin-right: 100px;
 }
@@ -152,7 +163,6 @@
     justify-content: center;
     color: #3C3C3B;
 }
-
 .card2-2-txt{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -168,7 +178,7 @@
 }
 
 .card-3{
-    width: 100%;
+    width: 50%;
     background-color: #ffffff;
     margin-right: 100px;
 }
@@ -176,27 +186,6 @@
 .card3-txt{
     padding-top: 17px;
     text-align: center;
-}
-
-.card3-1-txt{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    color: #3C3C3B;
-}
-
-.card3-2-txt{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    color: #3C3C3B;
-}
-
-.card3-3-txt{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -211,7 +200,7 @@
 }
 
 .card-4{
-    width: 100%;
+    width: 50%;
     background-color: #ffffff;
     margin-right: 110px;
 }
@@ -241,4 +230,83 @@
 .card-4-img{
     display: flex;
     justify-content: center;
+}
+
+.HIW{
+    padding-top: 133px;
+}
+
+.HIWname{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    color: #0FB3AF;
+    text-align: center;
+}
+
+.HIWname1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3C3C3B;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.HiwCard-1{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 272.48px;
+}
+
+.HiwCard-1-right{
+    padding-left: 240px;
+    margin-top: 52px;
+}
+
+.HiwCard-2-img{
+    display: flex;
+}
+
+.SFTA{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    color: #0FB3AF;
+    text-align: left;
+    margin-left: 59px;
+    padding-bottom: 30px;
+    
+}
+
+.STFAsup{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C3C3B;
+    text-align: left;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+.KnowButton{
+    background-color: #0FB3AF;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 14px 19px 19px 13px;
+    border-radius: 5px;
+    
+}
+
+.str{
+    margin-left: 10px;
+}
+
+.knowbut{
+    padding-top: 30px;
 }
