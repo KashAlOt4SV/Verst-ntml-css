@@ -1,0 +1,244 @@
+.body{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-image: url(static/Banner.png);
+    height: 90vh;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-right: 50px ;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-item{
+    padding-left: 32px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: #0FB3AF;
+}
+
+.button{
+    background-color: #0FB3AF;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px 36px;
+    border-radius: 10px;
+}
+
+.header-downed-1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: #3C3C3B;
+}
+
+.header-downed-2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3C3C3B;
+}
+
+.search-button {
+    background-color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    border-radius: 5px;
+}
+
+.wr-txt-1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#0FB3AF;
+}
+
+.wr-txt-2{
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #3C3C3B;
+}
+
+.cards{
+    padding-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card-1{
+    width: 100%;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.card1-1-txt{
+    padding-top: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card1-2-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card-1-img{
+    display: flex;
+    justify-content: center;
+}
+
+.card-2{
+    width: 100%;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.card2-1-txt{
+    padding-top: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card2-2-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card-2-img{
+    display: flex;
+    justify-content: center;
+}
+
+.card-3{
+    width: 100%;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.card3-txt{
+    padding-top: 17px;
+    text-align: center;
+}
+
+.card3-1-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card3-2-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card3-3-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card-3-img{
+    display: flex;
+    justify-content: center;
+}
+
+.card-4{
+    width: 100%;
+    background-color: #ffffff;
+    margin-right: 110px;
+}
+
+.card4-txt{
+    padding-top: 17px;
+}
+
+.card4-1-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card4-2-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: #3C3C3B;
+}
+
+.card-4-img{
+    display: flex;
+    justify-content: center;
+}
