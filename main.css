@@ -324,7 +324,6 @@
 
 .HiwCard-2 {
     display: flex;
-    
     padding-left: 272.48px;
 }
 
@@ -459,3 +458,103 @@
     justify-content: center;
     text-align: center;
 }
+
+.RR{
+    padding-top:160px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
+.RR-carts-line-1{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.RR-cart-1 {
+    width: 380px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+.RR-carttxt-1{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#3C3C3B;
+    margin-top: 19px;
+    text-align: left;
+    margin-left:12px;
+}
+
+.sup-rr-cart-1{
+    margin-top: 20px;
+}
+
+.sub-rr-cart-1{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:#0FB3AF;
+    margin-top: 19px;
+    display: flex;
+
+}
+
+.sub-rr-cart-img-1{
+    margin-left: 10px;
+}
+
+.strelka{
+    background-color: #000000;
+    margin-left: 150px;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    color:#FFFFFF;
+    border-radius: 100px ;
+}
+
+.sup-sub-rr-cart-1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.RR-carts-line-2{
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+}
+
+.RR-carts-line-3 {
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button3 {
+    background-color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 19px 49px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px -3px rgba(60, 60, 59, 0.18);
+}
+
+.search-btn3 {
+    margin-top: 60px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
