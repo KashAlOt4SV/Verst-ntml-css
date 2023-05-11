@@ -185,7 +185,7 @@
 
 .card3-txt{
     padding-top: 17px;
-    text-align: center;
+    text-align: match-parent;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -234,6 +234,7 @@
 
 .HIW{
     padding-top: 133px;
+    background-color: #FBFBFB;
 }
 
 .HIWname{
@@ -265,7 +266,7 @@
     margin-top: 52px;
 }
 
-.HiwCard-2-img{
+.HiwCard-1sup2-img{
     display: flex;
 }
 
@@ -309,4 +310,129 @@
 
 .knowbut{
     padding-top: 30px;
+}
+
+.vector{
+    padding-left: 649px;
+}
+
+.supvector {
+    align-items: center;
+}
+
+.HiwCard-2 {
+    display: flex;
+    
+    padding-left: 272.48px;
+}
+
+.HiwCard-2-left {
+    padding-right: 105px;
+    margin-top: 40px;
+}
+
+.HiwCard-2sup-img {
+    display: flex;
+}
+
+.HiwCard-2-img {
+    display: flex;
+}
+
+
+.AYR {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    color: #0FB3AF;
+    text-align: right;
+    padding-bottom: 30px;
+
+}
+
+.AYRsup {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C3C3B;
+    text-align: right;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+.AYR-container{
+    display: flex;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items:end;
+    color: #0FB3AF;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.KnowButton2 {
+    background-color: #0FB3AF;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 14px 19px 19px 13px;
+    border-radius: 5px;
+
+}
+
+.str {
+    margin-left: 10px;
+}
+
+.knowbut2 {
+    padding-top: 30px;
+}
+
+.HiwCard-3 {
+    display: flex;
+    
+    padding-left: 272.48px;
+}
+
+.HiwCard-3-right {
+    padding-left: 140px;
+    margin-top: 10px;
+}
+
+.HiwCard-3sup2-img {
+    display: flex;
+}
+
+.SYR {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    color: #0FB3AF;
+    text-align: left;
+    margin-left: 59px;
+    padding-bottom: 30px;
+
+}
+
+.SYRsup {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C3C3B;
+    text-align: left;
+    margin-top: 14px;
+    line-height: 30px;
+}
+
+.vector2 {
+    padding-left: 609px;
+}
+
+.supvector2 {
+    align-items: center;
 }
