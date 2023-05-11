@@ -54,7 +54,9 @@
     height: 20px;
 }
 
-
+.search-btn{
+    align-items: center;
+}
 
 .header-downed-1{
     font-family: 'Maven Pro', sans-serif;
@@ -435,4 +437,25 @@
 
 .supvector2 {
     align-items: center;
+}
+
+.search-button2 {
+    background-color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 17px 32px;
+    border-radius: 5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+.search-btn2 {
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
