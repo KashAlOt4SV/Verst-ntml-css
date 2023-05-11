@@ -558,3 +558,53 @@
     text-align: center;
 }
 
+.OA{
+    background-color: #FBFBFB;
+    justify-content: center;
+}
+
+.OA-cart1{
+    margin-top: 64px;
+    margin-left:300px;
+    background-image: url(/static/OA-img1.png);
+    width: 1181px;
+    height: 469px;
+    justify-content: center;
+    align-items: center;
+}   
+
+.OA-inside-cart{
+    width: 606px;
+    height: 275px;
+    background: #FFFFFF;
+    opacity: 0.9;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    margin-left:544px;
+}
+
+.OA-inside-cart-txt{
+    color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 105px;
+    margin-top: 40px;
+}
+
+.OA-inside-cart-suptxt{
+    margin-top: 18px;
+    font-family: "Open Sans", sans-serif;
+    color:#3C3C3B;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.OA-inside-cart-subtxt{
+    margin-top: 24px;
+    margin-left: 45px;
+    display: flex;
+}
