@@ -94,6 +94,8 @@
 
 .input-and-search-line{
     margin-top:20px;
+    display: flex;
+    align-items: center;
 }
 
 /* top | right | bottom | left */
@@ -139,4 +141,180 @@ input[type='text'] {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+
+.select-line{
+    margin-left: 455px;
+    display: flex;
+    align-items: center;
+}
+
+.select-wrapper{
+    position: relative;
+    margin-left: 15px;
+}
+
+.select-wrapper:before{
+    content:"";
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    transform: translateY(-50%);
+
+    display:block;
+    width: 48px;
+    height: 45.5px;
+    /* Убираем клик с треугольника */
+    pointer-events: none;
+
+    background: #3C3C3B url(/static/tr-select.png) no-repeat center;
+    align-items: center;
+
+    border: 1px solid #3C3C3B;
+    border-radius: 5px;
+}
+
+.select{
+    /* Убираем браузерную стрелку */
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 221px;
+    height: 48px;
+    border: 1px solid #3C3C3B;
+    border-radius: 5px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-align: left;
+}
+
+.label-select{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #3C3C3B;
+}
+
+.strelka {
+    background-color: #000000;
+    margin-left: 150px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.RR-carts-line-1 {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.RR-cart-1 {
+    width: 380px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+.RR-carttxt-1 {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3C3C3B;
+    margin-top: 19px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.sup-rr-cart-1 {
+    margin-top: 20px;
+}
+
+.sub-rr-cart-1 {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0FB3AF;
+    margin-top: 19px;
+    display: flex;
+
+}
+
+.sub-rr-cart-img-1 {
+    margin-left: 10px;
+}
+
+.RR-carts-line-2 {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.ifooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.count{
+    color:#3C3C3B;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* top | right | bottom | left */
+.count-item-sp{
+    margin-left: 24px;
+    opacity: 0.6;
+    background-color: #0FB3AF;
+    padding: 8px 14px 7px 15px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.count-item {
+    margin-left: 24px;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #3C3C3B;
+
+    transition: color 0.3s linear;
+}
+
+.count-item:hover{
+    color:#0FB3AF
+}
+
+.first-link {
+    text-decoration: none;
+    color: #3C3C3B;
+}
+
+
+
+.second-link {
+    text-decoration: none;
+    color: #3C3C3B;
+}
+
+.third-link{
+    text-decoration: none;
+    color: #3C3C3B;
+}
+
+.str-right{
+    margin-left: 24px;
 }
