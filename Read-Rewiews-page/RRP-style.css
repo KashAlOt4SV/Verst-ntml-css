@@ -110,7 +110,7 @@
     height: 20px;
     border-radius: 0px 5px 5px 0px;
     padding: 0px 33px 31px 23px;
-    box-shadow: 0px 5px 15px -3px rgba(60, 60, 59, 0.18);
+    box-shadow: 0px 5px 15px -3px rgba(60, 60, 59, 0.18);    
 }
 
 .input-line {
@@ -245,7 +245,13 @@ input[type='text'] {
     color: #0FB3AF;
     margin-top: 19px;
     display: flex;
+}
 
+.sup-sub-rr-cart-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #7E7E7E;
 }
 
 .sub-rr-cart-img-1 {
