@@ -6,14 +6,13 @@
 
 .header {
     background-color: #FFFFFF;
-    height: 100vh;
 }
 
 .header-line {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    height: 98px;
 }
 
 .logo {
@@ -66,3 +65,14 @@
 .search-btn {
     align-items: center;
 }
+
+.unheader {
+    background-image: url(/static/BGRap.png);
+    background-size: cover;
+    height: 100vh;
+    width: 2000px;
+    align-items: center;
+    text-align: center;
+}
+
+.
