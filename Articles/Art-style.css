@@ -6,7 +6,6 @@
 
 .header {
     background-color: #FFFFFF;
-    height: 100vh;
 }
 
 .header-line {
@@ -65,4 +64,30 @@
 
 .search-btn {
     align-items: center;
+}
+
+.unheader {
+    background-image: url(/static/ArtBanner.png);
+    background-size: cover;
+    height: 75vh;
+    text-align: center;
+    margin: -8px;
+    margin-top: 13px;
+    filter: brightness(95%);
+}
+
+.name-header {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 305px;
+}
+
+.under-name-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
 }
