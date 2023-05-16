@@ -73,7 +73,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    display: grid;
+    display: flex;
 }
 /* top | right | bottom | left */
 
@@ -198,7 +198,7 @@
 .header-p-story {
     display: flex;
     align-items: center;
-    margin-left: 112px;
+    margin-left: 280px;
 }
 
 .header-p-story-txt{
@@ -265,4 +265,17 @@
 
 .insta {
     margin-right: 22.5px;
+}
+
+.main-txt{
+    margin-left: 520px;
+    text-align: left;
+    align-items: center;
+}
+
+.Main-txt-header{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #3C3C3B;
 }
