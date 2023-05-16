@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-color: #fbfbfb;
 }
 
 .header {
@@ -73,7 +74,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    display: flex;
+    display:grid;
 }
 /* top | right | bottom | left */
 
@@ -179,7 +180,9 @@
     height: 11px;
 }
 
-
+.leftside-menu{
+    display: flex;
+}
 
 
 .previous-story{
@@ -198,7 +201,7 @@
 .header-p-story {
     display: flex;
     align-items: center;
-    margin-left: 280px;
+    margin-left: 140px;
 }
 
 .header-p-story-txt{
@@ -268,9 +271,14 @@
 }
 
 .main-txt{
-    margin-left: 520px;
     text-align: left;
     align-items: center;
+    margin-left: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3C3C3B;
+    background-color: #FFFFFF; 
 }
 
 .Main-txt-header{
@@ -278,4 +286,231 @@
     font-weight: 700;
     font-size: 40px;
     color: #3C3C3B;
+}
+
+.Main-txt-supheader{
+    margin-top: 12px;
+}
+
+.Main-txt-ab12{
+    margin-top: 30px;
+}
+
+.Main-txt-ab3-cont{
+    margin-top: 24px;
+    display: flex;
+}
+
+
+.img-main-txt{
+    margin-left:30px;
+    border-radius: 5px;
+}
+
+.Main-txt-ab4 {
+    margin-top: 24px;
+}
+
+.color-for-txt{
+    color: #0FB3AF;
+}
+
+.HERE{
+    border-top: 1px solid #EAEAEA;
+    margin-top: 35px;
+}
+
+.HERE-2{
+    border-top: 1px solid #EAEAEA;
+}
+
+.Under-main-txt{
+    display: flex;
+    margin-top: 15px;
+}
+
+.Like-pole{
+    margin-left: 10px;
+    display:flex;
+}
+
+.like-txt{
+    color: #0FB3AF;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 9px;
+    align-items: center;
+}
+
+.dislike-pole {
+    margin-left: 36px;
+    display: flex;
+}
+
+.dislike-txt {
+    color: #D3D3D3;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 9px;
+    align-items: center;
+}
+
+.comment-pole {
+    margin-left: 36px;
+    display: flex;
+}
+
+.comment-txt {
+    color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 9px;
+    align-items: center;
+}
+
+.amt-right{
+    display: flex;
+}
+
+.Facebook-cont{
+    display: flex;
+    padding: 7px 10px 7px 10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #3B5998;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mini-face{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.amt-right{
+    display: flex;
+    margin-left: 232px;
+}
+
+.Facebook{
+    display: flex;
+    align-items: center;
+}
+
+.rait{
+    margin-left: 5px;
+    color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.Twitter {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.Twitter-cont {
+    display: flex;
+    padding: 9px 10px 9px 10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #24A5DB;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mini-twit {
+    width: 17px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.Pinterest {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.Pinterest-cont {
+    display: flex;
+    padding: 8px 28px 8px 10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #CA2128;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mini-pint {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tags-header{
+    margin-left: 10px;
+    color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.tage{
+    margin-left: 18px;
+    color: #3C3C3B;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #F0F0F0;
+    padding: 5px 5px 7px 5px;
+}
+
+.People-face-and-article{
+    display: flex;
+    align-items: center;
+}
+
+.Atricle-text{
+    margin-left: 42px;
+}
+
+.Atricle-text-header{
+    color: #0FB3AF;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 24px;
+}
+
+.Atricle-text-sub{
+    color: #3C3C3B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 5px;
 }
